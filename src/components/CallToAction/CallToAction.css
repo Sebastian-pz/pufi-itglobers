@@ -1,0 +1,77 @@
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  min-height: 500px;
+}
+
+.callToAction__title {
+  color: rgb(78, 166, 253);
+  font-weight: 300;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+.callToAction__paragrahp {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.callToAction__title:hover {
+  transition: 0.5s;
+  color: rgb(0, 126, 253);
+}
+
+.callToAction__form {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.callToAction__input {
+  width: 700px;
+  height: 50px;
+  padding: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: none;
+  outline: none;
+}
+
+.callToAction__button {
+  width: 50px;
+  height: 50px;
+  /* position: relative; */
+  left: 45%;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  background: none;
+}
+
+.callToAction__button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(0, 126, 253);
+}
+
+.callToAction__response {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.--success {
+  color: green;
+}
+.--error {
+  margin-top: 10px;
+  color: rgb(242, 56, 56);
+}
