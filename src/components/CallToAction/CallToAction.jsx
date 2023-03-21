@@ -39,6 +39,12 @@ function CallToAction() {
           →
         </button>
       </form>
+      {/*
+        En este caso formspree trae su propio validador
+
+        Si lo tuviera que hacer yo mismo utilizaria un estado vinculado al input
+        Y justo donde está el validador de error renderizaria un error dependiendo de una función regex para email
+      */}
       <ValidationError
         className="callToAction__response --error"
         prefix="Email"
